@@ -1,0 +1,14 @@
+
+* {margin:0px;padding:0px;}
+body{ font-family: Arial; }
+main, nav, article, aside, section, header,
+footer { display:block; }
+
+article{
+    background-color: black;
+    width: 126px;
+    height: 94px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
