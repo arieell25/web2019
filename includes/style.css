@@ -110,7 +110,7 @@
 
     main section h2{
         font-size:30px;
-        padding-top: 90px;
+        padding-top: 60px;
     }
 
     main section p{
@@ -120,7 +120,7 @@
     
     #back_img{
         padding-bottom: 135px;
-        padding-top: 60px;
+        padding-top: 70px;
         widows: 570px;
         height: 417px;
         transition: all 0.5s ease;
