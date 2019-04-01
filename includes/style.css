@@ -175,25 +175,23 @@
         box-sizing: border-box;
     }
 
-    .link_git a{
-        position: absolute;
+    .link_git{
         color: #FFFFFF;
         font-family: helvetica;
-        font-size:20px;
         background: #af9e7f;
+        padding: 12px;
     }
 
     .more_link{
-        padding-left: 150px;        
         padding-bottom: 53px;
     }
 
     .more_link a{
-        padding-left: 90px;
         color: #FFFFFF;
         font-family: helvetica;
         font-size:20px;
-        padding-right: 60px;        
+        margin-right: 60px;
+        text-transform: uppercase;
     }
 
     .SocialNetworks a img{
