@@ -1,44 +1,73 @@
 
 * {margin:0px;padding:0px;}
-body{ font-family: Arial; }
+body{ font-family: Amiko; }
 main, nav, article, aside, section, header,
 footer { display:block; }
+
+body{
+    font-family: 'amiko', sans-serif;
+}
+
 header {
  width:100%;
  height:123px;
  background-color: #F2E9E9;
  padding-top: 2px;
 }
+
 footer {
  width:100%;
  height:41px;
  background-color: #000000;
 }
+
 #layout1 main{
  width: 881px;
  height:860px;
  margin: 0 auto;
- background-color: #333333;
+}
+
+#layout1 h1{
+    font-size: 72px;
+    font-weight: bold;
+    line-height: normal;
+    color: #000000;
+}
+
+#layout1 h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    color: #000000;
 }
 nav{
     width: 300px;
     height: 33px;
     margin: 50px auto;
-    background-color: #000000;
 }
+
+nav a{
+    color: #000000;
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+    position: relative;
+    padding-right: 18px;
+}
+
 
 /*---layout 1--*/
 #layout1 main{
     width: 881px;
     height: 860px;
     margin: 0 auto;
-    background-color: #333333
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
 #layout1 .text{
     float: left;
     width: 50%;
     height: 120px;
-    background-color: blue;
 }
 #layout1 .boxes{
     position: relative;
@@ -47,7 +76,7 @@ nav{
     float: left;
     width: 50%;
     height: 500px;
-    background-color: red;
+    margin-top: 91px;
 }
 #layout1 .box1{
     top: 44px;
