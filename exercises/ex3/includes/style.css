@@ -1,5 +1,5 @@
 * {margin:0px;padding:0px;}
-body{font-family: 'amiko', sans-serif; }
+body{font-family: 'Amiko', sans-serif; font-style: normal;}
 main, nav, article, aside, section, header,
 footer { display:block; }
 
@@ -344,15 +344,17 @@ background-color: #EBEF18;
     float: left;
     width: 964px;
 }
+
 #layout3 .main-nav{
     width: 372px;
-    height: 995px;
+    height: 100vh;
     float: left;
     background-color: #e5e5e5;
 }
 
 #layout3 nav{
     margin-top: 123px;
+    margin-left: 28px;
 }
 
 #layout3 .blackBox {
@@ -363,9 +365,57 @@ background-color: #EBEF18;
     margin: 21px;
 }
 
+#layout3 .box{
+  background-color: #000000;
+  float: left;
+  margin: 123px 64px;
+  text-align: center;
+  font-weight: normal;
+  line-height: normal;
+}
+
+#layout3 .block{
+    width: 100%;
+    height: 463px;
+    background-color: #EBEF18;
+}
+
 #layout3 aside{
     float: right;
     background-color: rgba(24 ,239, 33, 0.3);
-    height: 995px;
+    height: 100vh;
     width: 104px;
+}
+
+#layout3 .box.correct{
+    background-color: #12bd0c;
+}
+
+.show p{
+    color: #ffffff;
+}
+
+.box.correct p{
+    color:#ffffff;
+}
+
+@media only screen and (max-width:768px){
+    #layout3 .main-nav{
+        height: 105px;
+        width:100%;
+        margin: 0 auto;
+    }
+
+    #layout3 nav{
+        margin-top: 0;
+    }
+
+    #layout aside{
+        display: none;
+    }
+
+    #layout3 main{
+        width: 100%;
+        height: 955px;
+    }
 }
