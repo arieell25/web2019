@@ -322,13 +322,13 @@ display: flex;
 
 #layout3 main{
     float: left;
-    width: 67vw;
-    min-height: 100vh;
+    width: 964px;
+    min-height: 995px;
 }
 
 #layout3 .main-nav{
     width: 372px;
-    height: 100vh;
+    height: 995px;
     float: left;
     background-color: #e5e5e5;
 }
@@ -364,7 +364,7 @@ display: flex;
 #layout3 aside{
     float: right;
     background-color: rgba(24 ,239, 33, 0.3);
-    height: 100vh;
+    height: 995px;
     width: 104px;
 }
 
@@ -413,6 +413,6 @@ display: flex;
     #layout3 main{
         display: block;
         width: 100%;
-        min-height: 100vh;
+        min-height: 995px;
     }
 }
