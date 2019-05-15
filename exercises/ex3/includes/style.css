@@ -56,6 +56,10 @@ nav span{
     top:10px;
 }
 
+nav ul li :hover{
+    color: red;
+}
+
 .selected{
     list-style: none;
     height: 14px;
@@ -366,6 +370,7 @@ display: flex;
     background-color: rgba(24 ,239, 33, 0.3);
     height: 995px;
     width: 104px;
+    display: flex;
 }
 
 #layout3 .boxcorrect{
