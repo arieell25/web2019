@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+main,
+nav,
+article,
+aside,
+section,
+header,
+footer {
+    display: block;
+}
+
+#page1 {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 117px;
+}
+
+
+/* Style the list */
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background: #ffffff;
+}
+
+
+/* Display list items side by side */
+
+ul.breadcrumb li {
+    font-size: 18px;
+}
+
+
+/* Add a slash symbol (>>) before/behind each list item */
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">>\00a0";
+}
+
+.currentPage {
+    color: #000000;
+    padding: 8px;
+}
+
+
+/* Add a color to all links inside the list */
+
+ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.loginLine {
+    width: 100%;
+    height: 38px;
+    background-color: #7a7a7a;
+}
+
+.loginLine a {
+    font-size: 18px;
+    margin: 10px;
+    color: #000000;
+}
+
+
+
+main {
+    background: #EBEF18;
+    height: 700px;
+    width: 1048px;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    height: 41px;
+    background-color: #000000;
+}
+
+.clear {
+    clear: both;
+}
+
+li a {
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*-------Layout3-------*/
+
+#layout3 #wrapper {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#layout3 .leftNav {
+    float: left;
+    width: 25.833333333333332%;
+    min-height: 995px;
+    background: #E5E5E5;
+}
+
+#layout3 main {
+    float: left;
+    width: 66.94444444444444%;
+}
+
+#layout3 .rightSquare {
+    float: right;
+    width: 7.222222222222222%;
+    min-height: 995px;
+    background: rgba(24, 239, 33, 0.3);
+}
+
+#layout3 .leftNav li {
+    float: left;
+    margin-left: 18px;
+    margin-top: 123px;
+    list-style: none;
+}
+
+#layout3 .downSquare {
+    width: 100%;
+    height: 463px;
+    background: #EBEF18;
+}
+
+#layout3 #button {
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin: 21px 24px;
+    background: #000000;
+}
+
+#layout3 footer {
+    top: 1581px;
+}
+
+
+/*-------Media Query-------*/
+
+@media (max-width:851px) {
+    #layout3 .rightSquare {
+        display: none;
+    }
+    #layout3 .leftNav {
+        float: none;
+        width: 100%;
+        clear: both;
+        min-height: 105px;
+        max-height: 105px;
+    }
+    #layout3 main {
+        float: none;
+        width: 100%;
+        min-height: 1346px;
+    }
+    #layout3 .leftNav li {
+        margin-top: 0px;
+    }
+    #layout3 .downSquare {
+        height: 474px
+    }
+}
+
+
+/*-----ARIEL-------*/
+
+.failitieImg img{
+    padding-right: 30px;
+}

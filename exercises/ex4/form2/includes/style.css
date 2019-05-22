@@ -1,0 +1,43 @@
+* {margin:0px;padding:0px;}
+body{font-family: 'Gloria Hallelujah', cursive, sans-serif;
+    ; font-style: normal;}
+
+body{        
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+form{
+    padding-left: 40%;
+    padding-top: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-primary{
+padding-left: 20px;
+}
+
+input{
+    width: 3%;
+}
+
+input[type=text], input[type=password], input[type=submit]{
+    width: 180px;
+    padding: 12px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+  
