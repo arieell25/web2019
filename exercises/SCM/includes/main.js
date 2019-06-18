@@ -1,27 +1,27 @@
-(function() {
-    function categoryFiltering() {
-        var powerGroup = [],
-            aerobicGroup = [];
-        powerGroup = document.getElementsByClassName('power');
-        aerobicGroup = document.getElementsByClassName('aerobic');
-        if (this.innerHTML === 'Aerobic') {
-            if (powerGroup[0].style.display === 'block') // check two clicks
-                powerGroup[0].style.display = 'none';
-            else {
-                powerGroup[0].style.display = 'block';
-            }
-            aerobicGroup[0].style.display = 'block';
-        } else {
-            if (aerobicGroup[0].style.display === 'block') // check two clicks
-                aerobicGroup[0].style.display = 'none';
-            else {
-                aerobicGroup[0].style.display = 'block';
-            }
-            powerGroup[0].style.display = 'block';
+//Global variables
 
+(function() {
+    var filter;
+
+    function categoryFiltering() {
+        if (this.innerHTML === 'Power') {
+            filter = document.getElementsByClassName('power');
+            if (filter[0].style.display === 'none') {
+                filter[0].style.display = 'block';
+            } else {
+                filter[0].style.display = 'none';
+            }
+        } else {
+            filter = document.getElementsByClassName('aerobic');
+            if (filter[0].style.display === 'none') {
+                filter[0].style.display = 'block';
+            } else {
+                filter[0].style.display = 'none';
+            }
         }
+
     }
-    // triggers
+
     document.getElementById('filterPower').onclick = categoryFiltering;
     document.getElementById('filterAerobic').onclick = categoryFiltering;
 

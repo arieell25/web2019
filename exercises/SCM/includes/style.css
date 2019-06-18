@@ -48,8 +48,6 @@ footer {
 .table th {
     padding: 16px;
 }
-
-
 /* ------Bredcrumb------ */
 
 ul.breadcrumb {
@@ -61,8 +59,6 @@ ul.breadcrumb {
 ul.breadcrumb li {
     font-size: 18px;
 }
-
-
 /* Add a slash symbol (>>) before/behind each list item */
 
 ul.breadcrumb li+li:before {
@@ -82,8 +78,6 @@ ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
-
-
 /* ------Login section------ */
 
 .logo1 {
@@ -114,16 +108,12 @@ ul.breadcrumb li a:hover {
     margin: 16px;
     color: #000000;
 }
-
-
 /* ------Nav------ */
 
 li a {
     font-size: 24px;
     color: #000000;
 }
-
-
 /* ------Home layout------ */
 
 #homeLayout .actionCircle {
@@ -141,6 +131,7 @@ li a {
     min-height: 430px;
     background: url(../images/home_background.jpeg)no-repeat;
     background-size: contain;
+    clear: both;
 }
 
 #homeLayout .menuArea {
@@ -151,8 +142,6 @@ li a {
     font-size: 24px;
     padding-top: 100px;
 }
-
-
 /* ------Facilitys layout------ */
 
 #facilityLayout aside {
@@ -197,15 +186,17 @@ li a {
     margin: 7px;
     border-radius: 10ch;
 }
-
-
 /* ------Form layout------ */
 
 #formLayout form {
     padding: 10px 16px;
 }
-
-
+/* ------Form login------ */
+#wrapperLogin {
+    width: 500px;
+    /* according to design's width*/
+    margin: 0px auto;
+}
 /*-------Media Query-------*/
 
 @media only screen and (max-width: 481px) {
@@ -244,4 +235,3 @@ li a {
         background: #ffffff;
     }
 }
-
