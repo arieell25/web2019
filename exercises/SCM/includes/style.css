@@ -32,6 +32,7 @@ footer {
     background-color: #000000;
     color: #62c462;
     font-family: Helvetica;
+    clear: both;
 }
 
 .clear {
@@ -48,6 +49,8 @@ footer {
 .table th {
     padding: 16px;
 }
+
+
 /* ------Bredcrumb------ */
 
 ul.breadcrumb {
@@ -59,6 +62,17 @@ ul.breadcrumb {
 ul.breadcrumb li {
     font-size: 18px;
 }
+
+
+/* ------Login layout------ */
+
+#loginPage .wrapperLogin {
+    width: 50%;
+    /* according to design's width*/
+    margin: 0px auto;
+}
+
+
 /* Add a slash symbol (>>) before/behind each list item */
 
 ul.breadcrumb li+li:before {
@@ -78,6 +92,8 @@ ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
+
+
 /* ------Login section------ */
 
 .logo1 {
@@ -108,12 +124,21 @@ ul.breadcrumb li a:hover {
     margin: 16px;
     color: #000000;
 }
+
+
 /* ------Nav------ */
 
 li a {
     font-size: 24px;
     color: #000000;
 }
+
+#informationUserLayout .card {
+    margin: 0 auto;
+    width: 100%;
+}
+
+
 /* ------Home layout------ */
 
 #homeLayout .actionCircle {
@@ -127,9 +152,22 @@ li a {
     padding-top: 20px;
 }
 
+#homeLayout .actionEnter .actionCircle {
+    background-color: #92d36e;
+    border-radius: 10ch;
+    display: none;
+}
+
 #homeLayout main {
     min-height: 430px;
     background: url(../images/home_background.jpeg)no-repeat;
+    background-size: contain;
+    clear: both;
+}
+
+#homeLayout .gil_main {
+    min-height: 430px;
+    background: url(../images/user_back.jpg)no-repeat;
     background-size: contain;
     clear: both;
 }
@@ -142,6 +180,8 @@ li a {
     font-size: 24px;
     padding-top: 100px;
 }
+
+
 /* ------Facilitys layout------ */
 
 #facilityLayout aside {
@@ -178,25 +218,62 @@ li a {
     width: 114px;
     height: 110px;
     border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
 }
 
-#facilityLayout .facilitieLink a img {
+#facilityLayout .facilitieLink img {
     width: 100px;
     height: 100px;
     margin: 7px;
     border-radius: 10ch;
 }
+
+#facilityDetailsLayout .closeBtn {
+    background-color: #ffffff;
+    border: 0px;
+}
+
+#detailsSaveLayout .card-img,
+#facilityDetailsLayout .card-img {
+    width: 150px;
+    height: 150px;
+}
+
+
 /* ------Form layout------ */
 
 #formLayout form {
     padding: 10px 16px;
 }
-/* ------Form login------ */
-#wrapperLogin {
-    width: 500px;
-    /* according to design's width*/
-    margin: 0px auto;
+
+#formLayout .card {
+    border: 0px;
 }
+
+
+/* ------Barcode layout------ */
+
+#barcodeLayout main {
+    margin: 0 auto;
+    background: url(../images/barcode_img.jpg)no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    min-height: 430px;
+}
+
+
+/* ------Trainings for late comming layout------ */
+
+#trainingsForLateLayout main a {
+    width: 50%;
+    padding: 10px 16px;
+}
+
+
 /*-------Media Query-------*/
 
 @media only screen and (max-width: 481px) {
@@ -225,8 +302,14 @@ li a {
     #homeLayout .menuArea {
         padding-top: 0px;
     }
+    #homeLayout .actionEnter .actionCircle {
+        display: block;
+    }
     #facilityLayout .facilitieLink {
         margin: 25px;
+    }
+    .facilityImg {
+        display: none;
     }
 }
 
