@@ -1,2 +1,3 @@
+    
 <?php
-define("URL" , "http://localhost/project1/SCM/");
+define("URL" , "http://localhost/SCM/");
