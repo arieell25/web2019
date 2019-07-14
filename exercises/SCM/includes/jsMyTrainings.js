@@ -21,7 +21,10 @@ $(document).ready(function() {
                         '<td>' + obj.time + '</td>' +
                         '<td>' + obj.minutes + '</td>' +
                         '<td>' + obj.level + '</td>' +
-                        '</tr>')
+                        '<td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#update" (click)="setID(i)">Edit</button></td>' +
+                        '</tr>'
+                    );
+
                     j++;
                 }
 

@@ -48,6 +48,7 @@
                         <th scope="col">Level</th>
                     </tr>
                 </thead>
+
                 <tbody>
                   
                 </tbody>
@@ -101,6 +102,81 @@
                 </div>
             </div>
 
+
+            <div class="modal fade" id="update">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- update Header -->
+                        <div class="update-header">
+                            <h4 class="modal-title">Select new training</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- update body -->
+                        <form action="trainingsForUpdate.php" method="GET">
+                            <div class="update-body">
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">ID</label>
+                                    <div class="col-sm-10">
+                                        <input type="date" class="form-control" name="id" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Training</label>
+                                    <div class="col-sm-10">
+                                        <input type="time" class="form-control" id="training" name="training" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Date</label>
+                                    <div class="col-sm-10">
+                                        <input type="time" class="form-control" name="date" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Time</label>
+                                    <div class="col-sm-10">
+                                        <input type="time" class="form-control" name="time" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Minutes</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="duration" name="minutes" required>
+                                            <option>10</option>
+                                            <option>20</option>
+                                            <option>30</option>
+                                            <option>40</option>
+                                            <option>50</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Level</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="duration" name="level" required>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- update footer -->
+                            <div class="update-footer">
+                                <input type="submit" class="btn btn-success" value="Sumbit">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+
         </main>
     </div>
 
@@ -108,6 +184,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="includes/jsMyTrainings.js"></script>
+    <script src="includes/jsDynamicFormT.js"></script>
 </body>
 
 </html>
