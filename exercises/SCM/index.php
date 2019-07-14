@@ -20,9 +20,9 @@ if (!empty($_POST["loginMail"])) {
         $_SESSION["user_kind"] = $row['kind_admin'];
         $_SESSION["user_img"] = $row['img'];
         if ($_SESSION["user_kind"] == 0) {
-            header('Location: ./index_user.php?' . $_SESSION["user_id"]);
+            header('Location: ' . URL . 'index_user.php?' . $_SESSION["user_id"]);
         } else {
-            header('Location: ./index_admin.php?' . $_SESSION["user_id"]);
+            header('Location: ' . URL . 'index_admin.php?' . $_SESSION["user_id"]);
         }
     } else {
         $message = "Invalid Username or Password!";
@@ -43,8 +43,8 @@ if (!empty($_POST["loginMail"])) {
     <div id="wrapper">
         <header>
             <section class="loginLine"></section>
-            <a class="logo1" href="login.php"></a>
-            <a class="logo2" href="login.php"></a>
+            <a class="logo1" href="index.php"></a>
+            <a class="logo2" href="index.php"></a>
         </header>
 
         <div class="wrapperLogin">

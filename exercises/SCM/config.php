@@ -1,3 +1,3 @@
     
 <?php
-define("URL" , "http://localhost/SCM/");
+define("URL" , "http://localhost/");
