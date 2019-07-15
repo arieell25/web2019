@@ -2,12 +2,15 @@
 //get data from our from and insert to the table
 include 'db.php';
 session_start();
-$utime = $_GET["dtime"];
+$Msg = '';
+$unum = $_GET["dnum"];
 $id = $_SESSION["user_id"];
-$query = "DELETE FROM tb_training_210 WHERE ID=$id AND time='$utime' ";
+$query = "DELETE FROM tb_training_210 WHERE ID='$id' AND num_training='$unum'";
 $result = mysqli_query($connection, $query);
-if (!$result) {
-    die("DB query failed.");
+if ($connection->affected_rows) {
+    $Msg = 'success';
+} else {
+    $Msg = 'not success';
 }
 ?>
 
@@ -59,11 +62,11 @@ if (!$result) {
 
         <main>
             <?php
-             echo "<h3 class='confirmMessage'>Training in: ". $utime." successfully deleted !</h3>";
+                echo "<h3 class='confirmMessage'>Training number:".$unum." ". $Msg . " deleted !</h3>";
             ?>
         </main>
 
-        
+
 
     </div>
 </body>

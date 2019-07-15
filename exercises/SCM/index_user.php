@@ -12,7 +12,7 @@
     <div id="wrapper">
         <header>
             <section class="loginLine">
-                <a href="informationUser.php"><?php session_start();
+            <a href="informationUser.php"><?php session_start();
                 if(isset( $_SESSION["user_name"]))
                     echo  $_SESSION["user_name"];?></a>
                 <a href="#">Support</a>

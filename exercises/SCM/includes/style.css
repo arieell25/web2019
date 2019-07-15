@@ -278,6 +278,10 @@ li a {
     padding: 10px 16px;
 }
 
+#trainingsForLateLayout span {
+    display: none;
+}
+
 
 /*-------Media Query-------*/
 
