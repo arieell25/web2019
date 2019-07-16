@@ -50,8 +50,12 @@ footer {
     padding: 16px;
 }
 
+
+/* ------Message for DB query------ */
+
 .confirmMessage {
     padding: 16px;
+    font-family: 'Rokkitt', serif;
 }
 
 
@@ -235,11 +239,17 @@ li a {
     border-radius: 10ch;
 }
 
+
+/* ------Delete button------ */
+
 #myTrainingsLayout .closeBtn,
 #facilityDetailsLayout .closeBtn {
     background-color: #ffffff;
     border: 0px;
 }
+
+
+/* ------Card for faciliy/training details------ */
 
 #detailsSaveLayout .card-img,
 #facilityDetailsLayout .card-img {
@@ -247,15 +257,16 @@ li a {
     height: 150px;
 }
 
+#detailsSaveLayout .card,
+#facilityDetailsLayout .card {
+    border: 0px;
+}
+
 
 /* ------Form layout------ */
 
 #formLayout form {
     padding: 10px 16px;
-}
-
-#formLayout .card {
-    border: 0px;
 }
 
 
@@ -323,7 +334,8 @@ li a {
 }
 
 @media only screen and (max-width: 1199px) {
-    #homeLayout main {
+    #homeLayout main,
+    #homeLayout .gil_main {
         background: #ffffff;
     }
 }

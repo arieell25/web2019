@@ -1,4 +1,4 @@
-[{ "num_training": 1, "traning_name": "Body pump class", "date": "2017-09-25", "time": "10:00", "minutes": 40, "level": 1 },
+[{ "num_training": 1, "traning_name": "Body class", "date": "2017-09-25", "time": "10:00", "minutes": 40, "level": 1 },
     { "num_training": 2, "traning_name": "Legs pressing", "date": "2019-07-17", "time": "10:00", "minutes": 20, "level": 2 },
     { "num_training": 3, "traning_name": "Stairs", "date": "2019-07-17", "time": "10:00", "minutes": 30, "level": 2 },
     { "num_training": 4, "traning_name": "Elephatic", "date": "2017-10-22", "time": "13:00", "minutes": 10, "level": 2 },
@@ -19,13 +19,13 @@
     { "num_training": 19, "traning_name": "Breast pressing", "date": "2019-07-17", "time": "12:00", "minutes": 15, "level": 1 },
     { "num_training": 20, "traning_name": "Knee bending", "date": "2019-07-17", "time": "13:00", "minutes": 10, "level": 3 },
     { "num_training": 21, "traning_name": "Tennis court", "date": "2018-08-25", "time": "15:30", "minutes": 10, "level": 5 },
-    { "num_training": 22, "traning_name": "Body pump class", "date": "2019-07-17", "time": "20:00", "minutes": 30, "level": 3 },
+    { "num_training": 22, "traning_name": "Body class", "date": "2019-07-17", "time": "20:00", "minutes": 30, "level": 3 },
     { "num_training": 23, "traning_name": "Basketball court", "date": "2018-01-31", "time": "16:00", "minutes": 50, "level": 1 },
-    { "num_training": 24, "traning_name": "Body pump class", "date": "2019-07-17", "time": "17:30", "minutes": 40, "level": 3 },
+    { "num_training": 24, "traning_name": "Body class", "date": "2019-07-17", "time": "17:30", "minutes": 40, "level": 3 },
     { "num_training": 25, "traning_name": "Elephatic", "date": "2019-07-17", "time": "19:00", "minutes": 20, "level": 1 },
     { "num_training": 26, "traning_name": "Tennis court", "date": "2018-01-31", "time": "19:00", "minutes": 50, "level": 1 },
     { "num_training": 27, "traning_name": "Tennis court", "date": "2018-02-25", "time": "20:00", "minutes": 30, "level": 1 },
-    { "num_training": 28, "traning_name": "Body pump class", "date": "2018-02-25", "time": "20:15", "minutes": 40, "level": 1 },
-    { "num_training": 29, "traning_name": "Body pump class", "date": "2017-10-22", "time": "15:00", "minutes": 40, "level": 5 },
+    { "num_training": 28, "traning_name": "Body class", "date": "2018-02-25", "time": "20:15", "minutes": 40, "level": 1 },
+    { "num_training": 29, "traning_name": "Body class", "date": "2017-10-22", "time": "15:00", "minutes": 40, "level": 5 },
     { "num_training": 30, "traning_name": "Elephatic", "date": "2017-10-22", "time": "15:40", "minutes": 40, "level": 1 }
 ]
