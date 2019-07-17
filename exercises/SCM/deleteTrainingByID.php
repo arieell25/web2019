@@ -59,9 +59,8 @@ if ($connection->affected_rows) {
 
         </ul>
         <main>
-        <img src='" . $uimg . "' class='card-img' alt=''>
             <?php
-            echo "<h3 class='confirmMessage'><img src='".$imgUrl."' alt=' '> Training number:" . $unum . " " . $Msg . "</h3>";
+            echo "<span class='confirmMessage'><img src='".$imgUrl."' alt=' '> Training number:" . $unum . " " . $Msg . "</span>";
             ?>
         </main>
     </div>

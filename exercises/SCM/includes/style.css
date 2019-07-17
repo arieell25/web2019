@@ -55,6 +55,7 @@ footer {
 
 .confirmMessage {
     padding: 16px;
+    font-size: 26px;
     font-family: 'Rokkitt', serif;
 }
 
@@ -289,7 +290,9 @@ li a {
     padding: 10px 16px;
 }
 
-#trainingsForLateLayout span {
+#trainingsForLateLayout #getDate,
+#trainingsForLateLayout #getTime,
+#trainingsForLateLayout #getLevel {
     display: none;
 }
 

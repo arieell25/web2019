@@ -68,7 +68,7 @@ if ($connection->affected_rows) {
 
         <main>
             <?php
-                echo "<h3 class='confirmMessage'><img src='".$imgUrl."' alt=' '> Training number:".$uTrainingNumber." ". $Msg . "</h3>";
+                echo "<span class='confirmMessage'><img src='".$imgUrl."' alt=' '> Training number:" . $uTrainingNumber . " " . $Msg . "</span>";
             ?>
         </main>
     </div>
